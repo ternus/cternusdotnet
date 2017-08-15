@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Right-Click Image Uploads for Static Sites on macOS</title>
+	
+	
+	<link rel="stylesheet" href="https://cternus.net/css/style.css">
+	
+	<meta name="generator" content="Hugo 0.25.1" />
+</head>
+<body>
+	<div class="container">
+	<header>
+		<div id="name"><a href="https://cternus.net/">Christian Ternus</a></div>
+		<div id="contents">
+			<nav>
+				<ul>
+					<li><a href="https://twitter.com/ternus">Twitter</a></li>
+					<li><a href="https://github.com/ternus">Github</a></li>
+					<li><a href="https://stackoverflow.com/users/2797476/christian-ternus">StackOverflow</a></li>
+          <li><a href="https://cternus.net//pdf/ternus-resume.pdf">Resume</a></li>
+          <li><a href="https://cternus.net/index.xml">RSS</a></li>
+				</ul>
+		
+	</div>
+	<div class="clearfix">&nbsp;</div>
+	</header>
+
+	<main>
+		<article>
+			<div id="postheader">
+			<h1>Right-Click Image Uploads for Static Sites on macOS</h1>
+			<h4>Jun 13 2017</h4>
+		</div>
+			<div id="postcontent">
+				
+
+<p>Quick and dirty post on something cool I&rsquo;ve just learned.</p>
+
+<p>While putting together this blog, I&rsquo;ve wanted an easy way to add an image to a post. I&rsquo;ve long appreciated Dropbox&rsquo;s auto-uploading screenshots, and wanted something that easy. Here&rsquo;s how I did it:</p>
+
+<h3 id="create-an-upload-script">Create an &ldquo;upload&rdquo; script</h3>
+
+<p>(&ldquo;Upload&rdquo; is a bit of a misnomer here &ndash; the actual uploading is done by the blog&rsquo;s rsync deploy. Still, it&rsquo;s the closest match to how I thought of it when writing the script.)</p>
+
+<p>Normally I&rsquo;d write this in bash/zsh, but in this case I think Python&rsquo;s easier to read:</p>
+
+<script src="https://gist.github.com/ternus/c83cff50b0bfb75cc695d2365fa893ed.js"></script>
+
+<h3 id="create-an-automator-service-to-call-that-upload-script">Create an Automator service to call that upload script</h3>
+
+<ol>
+<li>Open up Automator (should be built-in on macOS)</li>
+<li>New -&gt; Service</li>
+<li>Library -&gt; Actions -&gt; Utilities -&gt; Run Shell Script</li>
+</ol>
+
+<p><img src="/uploads/2017/8/13/Screenshot_2017-08-13_22.32.28.png" alt="Screenshot_2017-08-13_22.32.28.png" /></p>
+
+<ol>
+<li>Service receives selected <em>files or folders</em> in <em>Finder.app</em></li>
+<li>Pass input <em>as arguments</em> (don&rsquo;t forget this!)</li>
+<li>Create a shell script that calls your <code>upload.py</code> file</li>
+</ol>
+
+<p><img src="/uploads/2017/8/13/Screenshot_2017-08-13_22.38.53.png" alt="Screenshot_2017-08-13_22.38.53.png" /></p>
+
+<ol>
+<li>Save it as something like &ldquo;Upload to Blog Static Dir&rdquo;</li>
+<li>Done! Right-click an image -&gt; Services -&gt; Upload to Blog Static Dir and watch the magic happen!</li>
+</ol>
+
+			</div>
+			
+			
+		</article>
+		<p class="meta">
+  
+    <a class="basic-alignment left" href="https://cternus.net/blog/2017/08/13/rc-day--1--rc-goals/" title="Next Post: RC Day -1: Goals for RC">RC Day -1: Goals for RC &rarr;</a>
+  
+  
+    <a class="basic-alignment right" href="https://cternus.net/blog/2017/08/09/welcome/" title="Previous Post: Welcome">&larr; Welcome</a>
+  
+</p>
+	</main>
+	<footer>
+		<p>&copy; 2017 <a href="https://cternus.net/">Christian Ternus</a></p>
+	</footer>
+</div>
+</body>
+</html>
+

@@ -1,0 +1,6 @@
+[submodule "content/posts/themes/blank"]
+	path = content/posts/themes/blank
+	url = https://github.com/vimux/blank.git
+[submodule "themes/blank"]
+	path = themes/blank
+	url = https://github.com/vimux/blank.git

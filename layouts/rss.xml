@@ -1,0 +1,21 @@
+<feed xmlns="http://www.w3.org/2005/Atom">
+        {{ `<title><![CDATA[` | safeHTML }}{{ .Site.Author.name }}]]></title>
+  <link href="{{ .Site.BaseURL }}/atom.xml" rel="self"/>
+  <link href="{{ .Site.BaseURL }}"/>
+  <updated>{{ .Date.Format "2006-01-02T15:04:05-07:00" | safeHTML }}</updated>
+  <id>{{ .Site.BaseURL }}</id>
+  <author>
+    {{ `<name><![CDATA` | safeHTML }}[{{ .Site.Author.name }}]]></name>
+  </author>
+  <generator uri="http://gohugo.io/">Hugo</generator>
+
+  {{ range first 30 .Data.Pages }}
+  <entry>
+    {{ `<title type="html"><![CDATA` | safeHTML }}[{{ .Title }}]]></title>
+    <link href="{{ .Permalink }}"/>
+    <updated>{{ .Date.Format "2006-01-02T15:04:05-07:00" | safeHTML }}</updated>
+    <id>{{ .Permalink }}</id>
+    {{ `<content type="html"><![CDATA` | safeHTML }}[{{ .Content }}]]></content>
+  </entry>
+  {{ end }}
+</feed>

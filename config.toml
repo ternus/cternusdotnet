@@ -1,0 +1,9 @@
+baseURL = "https://cternus.net/"
+languageCode = "en-us"
+title = "Christian Ternus"
+theme = "cternus"
+publishDir = "public"
+verbose = "true"
+
+[author]
+name = "Christian Ternus"

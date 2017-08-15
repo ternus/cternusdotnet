@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+        <title><![CDATA[Christian Ternus]]></title>
+  <link href="https://cternus.net//atom.xml" rel="self"/>
+  <link href="https://cternus.net/"/>
+  <updated>0001-01-01T00:00:00+00:00</updated>
+  <id>https://cternus.net/</id>
+  <author>
+    <name><![CDATA[Christian Ternus]]></name>
+  </author>
+  <generator uri="http://gohugo.io/">Hugo</generator>
+
+  
+</feed>

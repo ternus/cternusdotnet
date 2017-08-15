@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://cternus.net/blog/2017/08/14/rc-day-0--welcome--meeting--panels--and-presentations/</loc>
+    <lastmod>2017-08-14T14:17:06+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cternus.net/blog/2017/08/13/rc-day--1--rc-goals/</loc>
+    <lastmod>2017-08-13T22:48:04+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cternus.net/blog/2017/08/13/right-click-image-uploads-for-static-sites-on-macos/</loc>
+    <lastmod>2017-08-13T22:28:31+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cternus.net/blog/2017/08/09/welcome/</loc>
+    <lastmod>2017-08-09T13:55:56-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cternus.net/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://cternus.net/</loc>
+    <lastmod>2017-08-14T14:17:06+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://cternus.net/posts/</loc>
+    <lastmod>2017-08-14T14:17:06+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://cternus.net/categories/rc/</loc>
+    <lastmod>2017-08-14T14:17:06+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://cternus.net/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

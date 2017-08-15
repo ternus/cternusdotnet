@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+        <title><![CDATA[Christian Ternus]]></title>
+  <link href="https://cternus.net//atom.xml" rel="self"/>
+  <link href="https://cternus.net/"/>
+  <updated>2017-08-14T14:17:06+00:00</updated>
+  <id>https://cternus.net/</id>
+  <author>
+    <name><![CDATA[Christian Ternus]]></name>
+  </author>
+  <generator uri="http://gohugo.io/">Hugo</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[RC Day 0: Welcome, Meeting, Panels, and Presentations]]></title>
+    <link href="https://cternus.net/blog/2017/08/14/rc-day-0--welcome--meeting--panels--and-presentations/"/>
+    <updated>2017-08-14T14:17:06+00:00</updated>
+    <id>https://cternus.net/blog/2017/08/14/rc-day-0--welcome--meeting--panels--and-presentations/</id>
+    <content type="html"><![CDATA[<div class='image'><a href='/uploads/2017/8/14/2017-08-14_15.57.02.jpg'><img src='/uploads/2017/8/14/2017-08-14_15.57.02-640x480.jpg' class='uploaded-img' /></a></div>
+
+<p>First day of RC highlights included:</p>
+
+<ul>
+<li>Whirlwind meet-and-greet, where the most common question was &ldquo;so what are you working on?&rdquo; for current folks and &ldquo;what do you want to work on&rdquo; for new folks</li>
+<li>A discussion of &ldquo;what are you excited about&rdquo; and &ldquo;what are you nervous about&rdquo;:</li>
+</ul>
+
+<div class='image'><a href='/uploads/2017/8/14/2017-08-14_18.35.42.jpg'><img src='/uploads/2017/8/14/2017-08-14_18.35.42-640x480.jpg' class='uploaded-img' /></a></div>
+
+<ul>
+<li><p>Panels about self-direction, choosing and scoping projects, and common struggles and how to cope with them. Oneof the stand-out aspects of RC is the strong focus on well-being, empathy, and kindness in addition to the programming/technical stuff. Definitely something that&rsquo;s missing in a lot of other technical spaces.</p></li>
+
+<li><p>A skit about the RC <a href="https://www.recurse.com/manual#sec-environment">social rules</a> &ndash; much better than that sounds:</p></li>
+</ul>
+
+<div class='image'><a href='/uploads/2017/8/14/2017-08-14_17.29.48.jpg'><img src='/uploads/2017/8/14/2017-08-14_17.29.48-640x480.jpg' class='uploaded-img' /></a></div>
+
+<ul>
+<li>Presentations! I gave a presentation based on my <a href="https://blogs.akamai.com/2013/11/so-you-want-to-secure-something.html">So You Want To Secure Something</a> Akamai blog post. In retrospect, it was too much content to fit into five minutes, especially without slides. Hopefully I succeeded in conveying my key message: security doesn&rsquo;t have to be scary, it <em>is</em> something every Recurser can learn, and learning doesn&rsquo;t have to be a painful process.</li>
+</ul>
+
+<p>I spent the break time researching a better way to pair people up for the meet-and-greet, in the process learning about the <a href="https://en.wikipedia.org/wiki/Assignment_problem">assignment problem</a> and the <a href="https://en.wikipedia.org/wiki/Stable_roommates_problem">stable roommate problem</a> &ndash; a variant of the stable marriage problem I learned about in discrete math.</p>
+
+<p>Tomorrow is the first &ldquo;real day&rdquo; of RC. I think I&rsquo;m going to push myself to pair with folks &ndash; possibly putting up a sign saying what I&rsquo;d like help with. There are a lot of folks here experienced in frontend dev/data presentation as well as folks who&rsquo;ve been learning Rust, two areas I could definitely start out in.</p>
+
+<p>Overall I&rsquo;m super happy and excited for what the next twelve weeks will bring. Onward!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[RC Day -1: Goals for RC]]></title>
+    <link href="https://cternus.net/blog/2017/08/13/rc-day--1--rc-goals/"/>
+    <updated>2017-08-13T22:48:04+00:00</updated>
+    <id>https://cternus.net/blog/2017/08/13/rc-day--1--rc-goals/</id>
+    <content type="html"><![CDATA[
+
+<p>Tomorrow begins my 12-week stint at the <a href="https://recurse.com">Recurse Center</a>, hereafter &ldquo;RC&rdquo; :)</p>
+
+<p>In the spirit of SMART goals, here are some specific, measurable, achievable, relevant, and timely goals I&rsquo;ll grade myself on at the end of RC.</p>
+
+<h3 id="pair-with-people-and-build-great-relationships">Pair with people and build great relationships</h3>
+
+<p>RC&rsquo;s guide mentions that &ldquo;I wish I had paired more&rdquo; is one of the most frequent pieces of feedback from alumni &ndash; even when they&rsquo;ve been told this in advance!</p>
+
+<p>Having social anxiety, this isn&rsquo;t the easiest thing in the world for me, but it&rsquo;s something I&rsquo;d like to get better at. RC will be full of fascinating people with skills I don&rsquo;t have, and sharpening my programming and interpersonal skills by learning from those folks &ndash; as well as imparting what knowledge I can &ndash; is the primary reason I applied in the first place!</p>
+
+<p>So, note to self: when you&rsquo;re thinking that it&rsquo;s easier to just spend a few hours by yourself, remember this and try to fit in some pairing time.</p>
+
+<p><em>How will I measure this</em>: in the 12 weeks I was at RC, did I pair at least 36 times (3x/week)? Have I made connections &ndash; new friends, colleagues, etc. &ndash; that I&rsquo;ll stick with after RC is over?</p>
+
+<h3 id="build-something-cool-to-show-off">Build something cool to show off</h3>
+
+<p>One possible idea I had for this is to try to resurrect My Favorite Weather Site of All Time, the late lamented WeatherSpark. The site was the best presentation of weather data I&rsquo;d ever seen, but it died an ignoble death thanks to being written entirely in Flash. Take a look &ndash; how awesome is this?</p>
+
+<p><img src="/uploads/2017/8/13/weatherspark-screen-capture.jpg" alt="weatherspark-screen-capture.jpg" /></p>
+
+<p><em>How will I measure this</em>: did I produce at least one complete project? Was I happy with it?</p>
+
+<h3 id="renew-and-continue-building-my-programming-and-systems-skills">Renew and continue building my programming and systems skills</h3>
+
+<p>The job I just left was educational in many ways, but it didn&rsquo;t leave much time for nose-to-the-grindstone programming. I&rsquo;d like to get back into systems development as well as work on some new skills. These might include:</p>
+
+<ul>
+<li>A new language: Rust, Clojure, Ruby</li>
+<li>Refamiliarizing myself with a known language: Lisp, Scheme, C/C++, Javascript</li>
+<li>A new problem domain: machine learning, graphics, native applications, compilers</li>
+<li>Deep dives into security</li>
+</ul>
+
+<p><em>How will I measure this</em>: can I point to at least one concrete thing a week that I didn&rsquo;t know before?</p>
+
+<h3 id="share-my-knowledge-with-others">Share my knowledge with others</h3>
+
+<p>I&rsquo;ve acquired a reasonable amount of hard-won security knowledge in my time at Akamai, some of which is likely to be of interest to other folks. I&rsquo;ve also had a good amount of experience interviewing people &ndash; perhaps I can help others to interview?</p>
+
+<p><em>How will I measure this</em>: are there people who can say I&rsquo;ve helped them?</p>
+
+<h3 id="make-more-public-contributions">Make more public contributions</h3>
+
+<p>These might include:</p>
+
+<ul>
+<li>blog posts</li>
+<li>programming-related tweets</li>
+<li>talks</li>
+<li>conference applications</li>
+</ul>
+
+<p><em>How will I measure this</em>: did I make at least one significant public contribution per week?</p>
+
+<h3 id="embrace-serendipity">Embrace serendipity</h3>
+
+<p>RC will certainly involve challenges and new domains I&rsquo;d never expected.</p>
+
+<p><em>How will I measure this</em>: did I take advantage of opportunities that came my way? Did I display adaptability in the face of new challenges?</p>
+
+<h2 id="and-so-it-begins">And so it begins</h2>
+
+<p>Come back in 12 weeks to see how I did :)</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Right-Click Image Uploads for Static Sites on macOS]]></title>
+    <link href="https://cternus.net/blog/2017/08/13/right-click-image-uploads-for-static-sites-on-macos/"/>
+    <updated>2017-08-13T22:28:31+00:00</updated>
+    <id>https://cternus.net/blog/2017/08/13/right-click-image-uploads-for-static-sites-on-macos/</id>
+    <content type="html"><![CDATA[
+
+<p>Quick and dirty post on something cool I&rsquo;ve just learned.</p>
+
+<p>While putting together this blog, I&rsquo;ve wanted an easy way to add an image to a post. I&rsquo;ve long appreciated Dropbox&rsquo;s auto-uploading screenshots, and wanted something that easy. Here&rsquo;s how I did it:</p>
+
+<h3 id="create-an-upload-script">Create an &ldquo;upload&rdquo; script</h3>
+
+<p>(&ldquo;Upload&rdquo; is a bit of a misnomer here &ndash; the actual uploading is done by the blog&rsquo;s rsync deploy. Still, it&rsquo;s the closest match to how I thought of it when writing the script.)</p>
+
+<p>Normally I&rsquo;d write this in bash/zsh, but in this case I think Python&rsquo;s easier to read:</p>
+
+<script src="https://gist.github.com/ternus/c83cff50b0bfb75cc695d2365fa893ed.js"></script>
+
+<h3 id="create-an-automator-service-to-call-that-upload-script">Create an Automator service to call that upload script</h3>
+
+<ol>
+<li>Open up Automator (should be built-in on macOS)</li>
+<li>New -&gt; Service</li>
+<li>Library -&gt; Actions -&gt; Utilities -&gt; Run Shell Script</li>
+</ol>
+
+<p><img src="/uploads/2017/8/13/Screenshot_2017-08-13_22.32.28.png" alt="Screenshot_2017-08-13_22.32.28.png" /></p>
+
+<ol>
+<li>Service receives selected <em>files or folders</em> in <em>Finder.app</em></li>
+<li>Pass input <em>as arguments</em> (don&rsquo;t forget this!)</li>
+<li>Create a shell script that calls your <code>upload.py</code> file</li>
+</ol>
+
+<p><img src="/uploads/2017/8/13/Screenshot_2017-08-13_22.38.53.png" alt="Screenshot_2017-08-13_22.38.53.png" /></p>
+
+<ol>
+<li>Save it as something like &ldquo;Upload to Blog Static Dir&rdquo;</li>
+<li>Done! Right-click an image -&gt; Services -&gt; Upload to Blog Static Dir and watch the magic happen!</li>
+</ol>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Welcome]]></title>
+    <link href="https://cternus.net/blog/2017/08/09/welcome/"/>
+    <updated>2017-08-09T13:55:56-04:00</updated>
+    <id>https://cternus.net/blog/2017/08/09/welcome/</id>
+    <content type="html"><![CDATA[
+
+<p>Last week was my last official day at Akamai after five years there in the wonderful InfoSec department. On Monday I start a batch at the <a href="https://recurse.com">Recurse Center</a> (RC).</p>
+
+<p>To mark the occasion, I&rsquo;m jump-starting a new blog.</p>
+
+<h3 id="topics-that-may-end-up-here">Topics that may end up here</h3>
+
+<ul>
+<li>Lessons learned, programming or otherwise</li>
+<li>My time at RC</li>
+<li>Interviewing and job hunting</li>
+<li>Systems and system architecture</li>
+<li>Security topics</li>
+<li>Human factors: kindness, empathy, and the people side of programming</li>
+<li>Other stuff I&rsquo;m curious about</li>
+</ul>
+
+<h3 id="why-blogging">Why blogging?</h3>
+
+<p>I&rsquo;ve fallen out of practice writing down stuff I learn; starting RC will let me turn over a new leaf. I&rsquo;ve also found inspiration in some other Recursers&rsquo; blogs, including <a href="https://jvns.ca">Julia Evans&rsquo;</a> and <a href="https://danluu.com/">Dan Luu&rsquo;s</a>.</p>
+]]></content>
+  </entry>
+  
+</feed>
